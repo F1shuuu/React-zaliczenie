@@ -1,4 +1,3 @@
-// ProductsList.js
 import React, { useState } from 'react';
 import commonColumnsStyles from '../../../common/styles/Columns.module.scss';
 import produkty from '../../../common/consts/produkty';
