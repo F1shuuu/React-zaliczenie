@@ -4,7 +4,7 @@ import produkty from '../../../common/consts/produkty';
 import ShoppingList from '../ShopingList/ShopingList';
 
 function ProductsList() {
-  const [availableProducts, setAvailableProducts] = useState(produkty);
+  const [availableProducts] = useState(produkty);
   const [shoppingList, setShoppingList] = useState([]);
 
   const handleProductClick = (productName) => {
