@@ -1,10 +1,9 @@
-// ShoppingList.js
 import React from 'react';
 import commonColumnsStyles from '../../../common/styles/Columns.module.scss';
 
 function ShoppingList({ shoppingList, onRemove }) {
   const handleRemoveOne = (productName) => {
-    onRemove(productName, true); // Dodano drugi parametr, oznaczający usunięcie jednego elementu
+    onRemove(productName, true); 
   };
 
   return (
